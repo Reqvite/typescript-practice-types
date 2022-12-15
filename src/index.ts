@@ -1,8 +1,6 @@
 // let test: string = 'world';
 // alert(test);
 
-import { FileWatcher } from 'typescript';
-
 // let text: string = 'abc';
 
 // let phone: number = 323213213;
@@ -15,7 +13,7 @@ import { FileWatcher } from 'typescript';
 
 // console.log(text);
 
-////////////////////////// OPERATION
+// //////////////////////// OPERATION
 
 // let test1: number = 123;
 // let test2: number = 456;
@@ -46,7 +44,7 @@ import { FileWatcher } from 'typescript';
 
 // console.log(test1 + test2); 579
 
-///////////////////////////////////////ARRAY TYPESCRIPT
+// /////////////////////////////////////ARRAY TYPESCRIPT
 
 // let arr: number[] = [1, 2, 3, 4, 5];
 
@@ -56,7 +54,7 @@ import { FileWatcher } from 'typescript';
 
 // console.log(arr);
 
-///////////////////////////////////////OBJECT TYPESCRIPT
+// /////////////////////////////////////OBJECT TYPESCRIPT
 
 // let user = { name: 'john', age: 30 };
 // user = '123' //error
@@ -74,7 +72,7 @@ import { FileWatcher } from 'typescript';
 // let date = { year: 2025, month: 12, day: 31 };
 // date = { year: 2025, month: 12, date: 7 }; Type '{ year: number; month: number; date: number; }' is not assignable to type '{ year: number; month: number; day: number; }'.
 
-///////////////////////////////////////typescript LOOPS
+// /////////////////////////////////////typescript LOOPS
 
 // for (let i: number = 0; i <= 10; i++) {
 //   console.log(i);
@@ -92,7 +90,7 @@ import { FileWatcher } from 'typescript';
 //   console.log(key);
 // }
 
-//refactoring
+// refactoring
 // let res: number = 0;
 
 // for (let i: number = 0; i < 100; i++) {
@@ -130,7 +128,7 @@ import { FileWatcher } from 'typescript';
 
 // console.log(res);
 
-///////////////////////////////////////FUNCTION TS
+// /////////////////////////////////////FUNCTION TS
 
 // function sum(x: number, y: number) {
 //   return x + y;
@@ -146,13 +144,13 @@ import { FileWatcher } from 'typescript';
 //   return res;
 // }
 
-///////////////////////////////////////VOID TYPE TS
+// /////////////////////////////////////VOID TYPE TS
 
 // function func(elem: HTMLElement, text: string):void {
 //   elem.textContent = text;
 // }
 
-///////////////////TUPLES in TypeScript
+// /////////////////TUPLES in TypeScript
 
 // const arr: [number, number] = [1998, 24];
 
@@ -188,7 +186,7 @@ import { FileWatcher } from 'typescript';
 
 // tpl = [11, false, 'b', 'a']
 
-///////////////////////////////////////////////// ENUM
+// /////////////////////////////////////////////// ENUM
 
 // enum Season {
 //   Winter,
@@ -254,7 +252,7 @@ import { FileWatcher } from 'typescript';
 //   Saturday,
 // }
 
-////////////////////////////////////////////////ANY
+// //////////////////////////////////////////////ANY
 
 // let test: any;
 
@@ -275,7 +273,7 @@ import { FileWatcher } from 'typescript';
 // let arr: any[] = [1, '2', '3', 4, 5];
 // console.log(arr);
 
-////////////////////////////////////COMBINE TYPE
+// //////////////////////////////////COMBINE TYPE
 
 // let test: string | number;
 
@@ -300,7 +298,7 @@ import { FileWatcher } from 'typescript';
 // test = '231321321';
 // test = {}; // Type '{}' is not assignable to type 'string | number | boolean'.
 
-/////////////////////////////////Type aliases
+// ///////////////////////////////Type aliases
 
 // type str = string;
 
@@ -328,7 +326,7 @@ import { FileWatcher } from 'typescript';
 // test = undefined;
 // test = '32312213213132' //Type '"32312213213132"' is not assignable to type 'nullUndefined'
 
-///////////////////////String literal type
+// /////////////////////String literal type
 
 // let str: 'success' | 'error';
 
@@ -351,7 +349,7 @@ import { FileWatcher } from 'typescript';
 
 // type alert = 'success' | 'error' | 'warning';
 
-/////////////////////////////////// Built-in object types in TypeScript
+// ///////////////////////////////// Built-in object types in TypeScript
 
 // let date: Date = new Date(2030, 11, 31);
 
@@ -393,7 +391,7 @@ import { FileWatcher } from 'typescript';
 
 // mySet.add('3232');
 
-//////////////////////////////Object Structure
+// ////////////////////////////Object Structure
 
 // let user: { name: string; age: number };
 
@@ -407,7 +405,7 @@ import { FileWatcher } from 'typescript';
 
 // let date : { year: number, month: number, day?: number } = { year: 2025, month: 12 }
 
-///////////////////////////////////////INTERFACE
+// /////////////////////////////////////INTERFACE
 
 // interface User {
 //   name: string;
@@ -442,7 +440,7 @@ import { FileWatcher } from 'typescript';
 //   second: 32
 // };
 
-///////////////////////////////////////////////////////////Arrays in objects
+// /////////////////////////////////////////////////////////Arrays in objects
 
 // let product: {
 //   name: string;
@@ -475,7 +473,7 @@ import { FileWatcher } from 'typescript';
 //   city: ['Dnipro', 'Lviv'],
 // };
 
-///////////////////////////////////////Complex objects in TypeScript
+// /////////////////////////////////////Complex objects in TypeScript
 
 // interface User {
 //   name: string;
@@ -536,7 +534,7 @@ import { FileWatcher } from 'typescript';
 //   },
 // };
 
-/////////////////////////Objects in Objects in TypeScript
+// ///////////////////////Objects in Objects in TypeScript
 
 // interface Period {
 //   date1: Date;
@@ -564,7 +562,7 @@ import { FileWatcher } from 'typescript';
 //   city: { name: 'london' },
 // };
 
-/////////////////////////////INTERFACE IN INTERFACE 1 example
+// ///////////////////////////INTERFACE IN INTERFACE 1 example
 
 // interface Position {
 //     name: string;
@@ -592,7 +590,7 @@ import { FileWatcher } from 'typescript';
 //     city: '3321321',
 //     }
 // };
-/////////////////////////////INTERFACE IN INTERFACE 2 example
+// ///////////////////////////INTERFACE IN INTERFACE 2 example
 
 // interface Father {
 //   name: string;
@@ -632,7 +630,7 @@ import { FileWatcher } from 'typescript';
 //   },
 // };
 
-//////////////////////////////////////////Arrays of objects in TypeScript
+// ////////////////////////////////////////Arrays of objects in TypeScript
 
 // interface User {
 //   name: string;
@@ -657,7 +655,7 @@ import { FileWatcher } from 'typescript';
 // let lst: NodeList = document.querySelectorAll('div');
 // let arr: HTMLElement[] = Array.from(lst);
 
-///////////////////////
+// /////////////////////
 // interface Worker {
 //   name: string;
 //   salary: number;
@@ -667,7 +665,7 @@ import { FileWatcher } from 'typescript';
 
 // employeers.push({ name: 'john', salary: 2222 });
 
-//////////////////
+// ////////////////
 
 // interface TrueOrNot {
 //   promise: Promise<string>;
@@ -686,7 +684,7 @@ import { FileWatcher } from 'typescript';
 // promises.push({ promise: newPromise });
 // console.log(promises);
 
-///////////////////////////////////Function paramaters
+// /////////////////////////////////Function paramaters
 
 // function func(first: string, last: string) {
 //   return first + ' ' + last;
@@ -703,7 +701,7 @@ import { FileWatcher } from 'typescript';
 // func(1); //Expected 2 arguments, but got 1.
 // func(1, 2, 3); //Expected 2 arguments, but got 3.
 
-//////////////////////////////////////Optional Function Parameters in TypeScript
+// ////////////////////////////////////Optional Function Parameters in TypeScript
 
 // function func(first: string, last?: string) {
 //   if (last) {
@@ -736,7 +734,7 @@ import { FileWatcher } from 'typescript';
 
 // date();
 
-///////////////////////////////////////////////Default parameter values in TypeScript
+// /////////////////////////////////////////////Default parameter values in TypeScript
 
 // function func(first: string, last: string = 'snow') {
 //   return first + ' ' + last;
@@ -753,7 +751,7 @@ import { FileWatcher } from 'typescript';
 // console.log(pow(22));
 // console.log(pow(22, 23));
 
-/////////////////////////////////////////////////Rest function parameters in TypeScript
+// ///////////////////////////////////////////////Rest function parameters in TypeScript
 
 // function func(...rest: number[]): number[] {
 //  return rest;
@@ -767,7 +765,7 @@ import { FileWatcher } from 'typescript';
 
 // sum(1, 2, 3, 4, 5);
 
-///////////////////////////////////////////////////////Function type in TypeScript
+// /////////////////////////////////////////////////////Function type in TypeScript
 
 // let func: (x: number, y: number) => number;
 
@@ -791,7 +789,7 @@ import { FileWatcher } from 'typescript';
 //   alert(text);
 // };
 
-///////////////////////////////////////////////////Callback functions in TypeScript
+// /////////////////////////////////////////////////Callback functions in TypeScript
 
 // function make(num: number, func: (num: number) => number): number {
 //   return func(num);
@@ -804,7 +802,7 @@ import { FileWatcher } from 'typescript';
 // make(3, function (num: number): number {
 //   return num ** 3;
 // });
-////////////
+// //////////
 // type Func = (num: number) => number;
 
 // function make(arr: number[], func: Func): number[] {
@@ -819,7 +817,7 @@ import { FileWatcher } from 'typescript';
 
 // console.log(res);
 
-/////////////////////////////////////////////////
+// ///////////////////////////////////////////////
 // type Func = (num: number) => number;
 
 // function make(arr: number[], func: Func): number {
@@ -838,7 +836,7 @@ import { FileWatcher } from 'typescript';
 
 // console.log(res);
 
-/////////////////////////////////////////// => function
+// ///////////////////////////////////////// => function
 
 // let func = (num: number): number => num ** 2;
 
